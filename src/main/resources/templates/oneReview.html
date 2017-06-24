@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Lounge Movie Review</title>
+
+</head>
+<body>
+<h1>The Lounge Movie Review</h1>
+
+<img th:src="${onereview.imageUrl}"/>
+
+<p th:text="'Id: ' + ${onereview.id}"></p>
+<p th:text="'Title: ' + ${onereview.title}"></p>
+<p th:text="'Category: ' + ${onereview.category}"></p>
+<p th:text="'Content: ' + ${onereview.content}"></p>
+<p th:text="'Review: ' + ${onereview.date}"></p>
+<p th:text="'Synopsis: ' + ${onereview.synopsis}"></p>
+
+</body>
+</html>
