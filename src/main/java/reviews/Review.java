@@ -49,8 +49,6 @@ public class Review {
 	public String getTag() {
 		return tag;
 	}
-	//public String toString() { 
-	//	return "Id: "+ id + "Title: " + title;
-	//}
+	
 
 }

@@ -30,7 +30,7 @@
     flex: 1;
   }
   header, footer {
-    background: yellow;
+    background: gold;
     height: 20vh;
   }
   header, footer, article, nav, aside {
